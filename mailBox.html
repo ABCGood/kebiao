@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>课表哟 | 绑定邮箱</title>
+    <link href="css/demo.css" rel="stylesheet">
+</head>
+<body>
+ <div class="mailBx">
+     <div class="demo_title">
+         <label>课表哟</label>
+     </div>
+     <div class="logoImg">
+        <img src="image/kebiaoyoLogo.png">
+     </div>
+     <form action="">
+         <div class='userRegister'>
+             <div>
+                 <label>邮箱：</label>
+                 <div class="userInfo">
+                    <input type="text" name="email" placeholder='请填写邮箱'>
+                 </div>
+             </div>
+             <div>
+                <label>密码：</label>
+                 <input type="password" name="password" placeholder="请输入密码">
+             </div>
+             <div>
+                <label>验证码：</label>
+                 <input type="text" name="code" placeholder="请输入验证码">
+             </div>
+         </div>
+     </form>
+    <div style="text-align: center">
+        <button>发送验证码</button>
+        <button onclick="javascript:history.back(1)">绑定并登录</button>
+    </div>
+ </div>
+</body>
+</html>
